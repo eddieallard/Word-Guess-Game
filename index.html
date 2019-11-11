@@ -14,10 +14,10 @@
 
 <body>
 
-    <!-- Bootstrap Container will hold everything. -->
+    <!-- Bootstrap Container -->
     <div class="container">
 
-        <!-- Jumbotron holds the title section. -->
+        <!-- Jumbotron title section. -->
         <div class='jumbotron'>
             <div class='container'>
                 <h1>Word Guess</h1>
@@ -29,18 +29,27 @@
         <div class="row">
             <div class="col-lg-12">
 
-                <!-- First card: Holds the Word to Guess (blanks and guessed word). -->
+                <!-- This holds the Word to Guess (blanks and guessed word). -->
                 <div class="card card-default">
                     <div class="card-header">
                         <h3 class="card-title"><strong>Guess this word</strong></h3>
                     </div>
                     <div class="card-body">
 
-                        <!-- This h3 section called word-blanks is what we"ll be replacing with letters as the user guesses. Pay particular attention to the id called ***word-blanks***. We"ll be referencing this in the JavaScript. -->
+                        <!-- Word blanks section we'll be referencing in the js file -->
                         <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
 
                     </div>
+                </div>
 
+                <!-- Wrong User Guesses -->
+                <div class="card card-default">
+                    <div class="card-body">
+
+                        <!-- Wrong Guesses section -->
+                        <strong>Wrong Guesses: </strong> <span id="wrong-guesses"></span>
+
+                    </div>
                 </div>
 
 </body>
