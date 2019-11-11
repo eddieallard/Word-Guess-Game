@@ -2,8 +2,14 @@ body {
     background-image: url(../images/Bluesky.jpg);
     background-repeat: no-repeat center center fixed; 
     text-align: center;
-    font-family: 'Headland One', serif;
+    font-family: 'Ranchers', cursive;
 }
+
+#logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .jumbotron {
     background-color: #e9ecef;
     text-align: center;
