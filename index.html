@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Word-Guess</title>
-      <!-- Bootstrap CDN -->
-      <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Bootstrap CDN -->
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Headland+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+
+    <!-- Bootstrap Container will hold everything. -->
+    <div class="container">
+
+        <!-- Jumbotron holds the title section. -->
+        <div class='jumbotron'>
+            <div class='container'>
+                <h1>Word Guess</h1>
+                <h2>Guess the states I've been to.</h2>
+                <small>Type any letter to begin...</small>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+
+                <!-- First card: Holds the Word to Guess (blanks and guessed word). -->
+                <div class="card card-default">
+                    <div class="card-header">
+                        <h3 class="card-title"><strong>Guess this word</strong></h3>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- This h3 section called word-blanks is what we"ll be replacing with letters as the user guesses. Pay particular attention to the id called ***word-blanks***. We"ll be referencing this in the JavaScript. -->
+                        <h3 id="word-blanks">_ _ _ _ _ _ _ _ _ </h3>
+
+                    </div>
+
+                </div>
+
 </body>
+
 </html>
