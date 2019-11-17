@@ -6,6 +6,13 @@ body {
     font-family: 'Ranchers', cursive;
 }
 
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+      left: 50%;
+      margin-left: -512px;   /* 50% */
+    }
+  }
+
 #logo {
     margin-top: 15px;
     margin-bottom: 30px;
